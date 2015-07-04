@@ -21,9 +21,12 @@ Package.onUse(function(api) {
   api.addFiles('formatters.js', 'client', {isAsset: true});
   api.addFiles('CryptoJS/rollups/aes.js', 'client', {isAsset: true});
   api.addFiles('CryptoJS/rollups/hmac-sha1.js', 'client');
+  api.addFiles('CryptoJS/rollups/hmac-sha256.js', 'client');
   api.addFiles('CryptoJS/rollups/sha1.js', 'client');
+  api.addFiles('CryptoJS/rollups/sha256.js', 'client');
   api.addFiles('CryptoJS/components/hmac.js', 'client');
   api.addFiles('CryptoJS/components/sha1.js', 'client');
+  api.addFiles('CryptoJS/components/sha256.js', 'client');
 
   api.addFiles('Utils.jsx', 'client');
   api.addFiles('BrowserDetect.js', 'client');
